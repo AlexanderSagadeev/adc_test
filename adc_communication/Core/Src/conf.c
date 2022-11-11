@@ -4,7 +4,7 @@ void adc_set_channel(ADC_HandleTypeDef *hadc, uint16_t channel)
 {
 	hadc->Instance->SQR3 = channel;
 }
-
+EGOR TUT DOBAVIL
 void set_period(TIM_HandleTypeDef *htim, uint32_t channel, uint16_t val)
 {
 	// adc start every second period of timer interrupt
